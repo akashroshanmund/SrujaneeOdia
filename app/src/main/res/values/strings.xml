@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Srujanee Odia</string>
+    <string name="navigation_drawer_open">open</string>
+    <string name="navigation_drawer_close">close</string>
+    <!-- Facebook application ID and custom URL scheme (app ID prefixed by 'fb'). -->
+    <string name="facebook_application_id" translatable="false">292405435162040</string>
+    <string name="facebook_login_protocol_scheme" translatable="false">fb292405435162040</string>
+</resources>

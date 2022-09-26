@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group>
+        <item android:id="@+id/nav_userProfile"
+            android:title="Profile"/>
+        <item android:id="@+id/nav_draft"
+            android:title="Draft" />
+        <item android:id="@+id/nav_myBookMarks"
+            android:title="Bookmarks" />
+    </group>
+    <group android:id="@+id/group_menu">
+        <item android:id="@+id/nav_trending_short"
+            android:title="Trending" />
+        <item android:id="@+id/nav_Editor_Choice_Short"
+            android:title="Editor's Choice" />
+    </group>
+
+    <item android:title="App Options">
+        <menu>
+            <item android:id="@+id/nav_signOut"
+                android:visible="false"
+                android:title="Sign Out" />
+            <item android:id="@+id/nav_signIn"
+                android:visible="false"
+                android:title="Sign In" />
+            <item android:id="@+id/nav_about"
+                android:title="About" />
+
+        </menu>
+    </item>
+    <item android:id="@+id/nav_share"
+        android:icon="@drawable/share_white"
+        android:title="Share With Friends" />
+
+
+</menu>

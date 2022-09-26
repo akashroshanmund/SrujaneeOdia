@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "976523209280",
+    "firebase_url": "https://srujanee-b0e3f.firebaseio.com",
+    "project_id": "srujanee-b0e3f",
+    "storage_bucket": "srujanee-b0e3f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:976523209280:android:5e05bb2650bd8f00500da5",
+        "android_client_info": {
+          "package_name": "com.example.sahitya11"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "976523209280-h07hb4q4n0onv4neo9ltrsl6qi7b9ltp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAPjoTDZb0jK_hNdyu-Le64lama5nMvm88"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "976523209280-h07hb4q4n0onv4neo9ltrsl6qi7b9ltp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

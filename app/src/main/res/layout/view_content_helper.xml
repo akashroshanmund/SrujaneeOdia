@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!--  <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:background="@color/white"
+          android:orientation="vertical" >
+
+          <TextView
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:id="@+id/viewTitle"
+              style="@style/TextAppearance.AppCompat.Caption"
+              android:textSize="30dp"
+              android:paddingTop="10dp"
+              android:text="hello"></TextView>
+          <LinearLayout
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:paddingBottom="3dp"
+              style="@style/TextAppearance.AppCompat.Body1"
+              android:orientation="horizontal">
+              <TextView
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:id="@+id/viewAuthor"
+                  android:textStyle="italic"
+                  android:hint="author"
+                  android:layout_gravity="left"
+                  android:layout_weight="1"
+                  style="@style/TextAppearance.AppCompat.Body1"
+                  android:textSize="15dp"></TextView>
+
+              <TextView
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_weight="1"
+                  android:id="@+id/viewSubCategory"
+                  android:hint="tag"
+                  android:layout_gravity="center"
+                  style="@style/TextAppearance.AppCompat.Body1"
+                  android:textStyle="italic"
+                  android:textSize="15dp"></TextView>
+              <TextView
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:id="@+id/viewDate"
+                  android:textStyle="italic"
+                  style="@style/TextAppearance.AppCompat.Body1"
+                  android:hint="date"
+                  android:layout_gravity="right"
+                  android:layout_weight="1"
+                  android:textSize="15dp"></TextView>
+
+          </LinearLayout>
+
+          <TextView
+              android:paddingTop="20dp"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              style="@style/TextAppearance.AppCompat.Body2"
+              android:hint="content"
+              android:textSize="20dp"
+              android:id="@+id/viewContent"> </TextView>
+          <LinearLayout
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:orientation="vertical">
+              <RelativeLayout
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content">
+                  <TextView
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:layout_alignParentLeft="true"
+                      android:id="@+id/viewReaction"
+                      android:text="reaction"
+                      android:background="@drawable/reaction_white"/>
+                  <TextView
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:layout_alignParentRight="true"
+                      android:id="@+id/viewFollowAuthor"
+                      android:text="follow"
+                      android:background="@drawable/reaction_white"/>
+              </RelativeLayout>
+              <TextView
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="123"
+                  android:layout_alignParentLeft="true"
+                  android:id="@+id/viewReactionCount"
+                  android:background="@drawable/reaction_white"/>
+          </LinearLayout>
+      </LinearLayout>>
+  -->
+
+  </LinearLayout>

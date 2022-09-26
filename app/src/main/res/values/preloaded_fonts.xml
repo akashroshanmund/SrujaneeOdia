@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/aguafina_script</item>
+        <item>@font/antic_didone</item>
+        <item>@font/architects_daughter</item>
+        <item>@font/aref_ruqaa</item>
+        <item>@font/arizonia</item>
+        <item>@font/baloo_bhaina</item>
+        <item>@font/bilbo_swash_caps</item>
+        <item>@font/cagliostro</item>
+        <item>@font/calligraffitti</item>
+        <item>@font/carrois_gothic_sc</item>
+        <item>@font/ewert</item>
+    </array>
+</resources>

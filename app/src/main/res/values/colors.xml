@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#000000</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorAccent">#000000</color>
+    <color name="blue">#121212</color>
+    <color name="black">#000</color>
+    <color name="rr">#D6E7E5</color>
+    <color name="yellow">#FFEB3B</color>
+    <color name="orange">#FF9800</color>
+    <color name="backGround">#E8E4E4</color>
+    <color name="flag">#000000</color>
+    <color name="trans">#00000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="profileBackground">#FFFFFF</color>
+    <color name="skyBlue"></color>
+    <color name="mainActivity">#22A06458</color>
+    <color name="horizontalMainActivity">#22D7C1BD</color>
+    <color name="horizontalMainActivity_shade2">#22B79792</color>
+    <color name="strokeColor">#B83C3C</color>
+    <color name="ReactionColor">#E84AAE</color>
+    <color name="BookmarkColor">#34B2F1</color>
+
+
+
+    <color name="EditWhite">#ffffff</color>
+    <color name="EditSkyBlue">#00a8f3</color>
+    <color name="EditGreen">#0ed145</color>
+    <color name="EditBlue">#3f48cc</color>
+    <color name="EditSky">#8cfffb</color>
+    <color name="EditBrown">#88001b</color>
+    <color name="EditGray">#585858</color>
+    <color name="EditViolet">#b83dba</color>
+    <color name="EditDirty">#b97a56</color>
+    <color name="EditCement">#c3c3c3</color>
+    <color name="EditLightGreen">#c4ff0e</color>
+    <color name="EditRed">#ec1c24</color>
+    <color name="EditSkin">#fdeca6</color>
+    <color name="EditPink">#ffaec8</color>
+    <color name="EditOrange">#ff7f27</color>
+    <color name="EditDarkYellow">#ffca18</color>
+    <color name="EditYellow">#fff200</color>
+    <color name="EditBlack">#000000</color>
+    <color name="test">#7f05000b</color>
+
+
+</resources>

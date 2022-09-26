@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TextEdit">
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/my_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/black"
+        android:elevation="4dp">
+        <Button
+            android:id="@+id/viewContenteBackButton"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:onClick="BackButtonEditActivity"
+            android:gravity="left"
+            android:background="@drawable/back_button_white"
+            android:layout_marginTop="5dp"
+            android:textColor="@color/white"
+            android:layout_marginRight="10dp"
+            />
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+      <!--      <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:visibility="gone"
+                android:text="Sahitya1.0"
+                android:id="@+id/mainAppName"
+                style="@style/TextAppearance.AppCompat.Body2"
+                android:textColor="@color/white"
+                android:paddingRight="50dp"
+                android:textSize="20dp"/> -->
+            <TextView
+                android:id="@+id/viewBookmark"
+                style="@style/TextAppearance.AppCompat.Body2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:fontFamily="@font/amaranth"
+                android:gravity="right"
+                android:onClick="ProceedToPost"
+                android:text="Proceed"
+                android:textColor="@color/white"
+                android:textSize="23dp" />
+        </RelativeLayout>
+    </androidx.appcompat.widget.Toolbar>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="?attr/actionBarSize"
+        android:orientation="vertical">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="4"
+        android:id="@+id/parentLayout"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="match_parent"
+            android:background="#0FEEEAEA"
+            android:layout_height="match_parent"
+            android:scaleType="fitXY"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center_horizontal">
+        </ImageView>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:elevation="15dp"
+            android:id="@+id/edtibackGround"
+            android:scaleType="fitXY"
+            android:background="@color/EditSkin"
+            android:layout_gravity="center_horizontal"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="7dp"
+            android:layout_marginRight="7dp"
+            android:layout_marginBottom="52dp"/>
+        <TextView
+            android:elevation="16dp"
+            android:paddingBottom="54dp"
+            android:paddingTop="52dp"
+            android:paddingRight="19dp"
+            android:paddingLeft="19dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/writtenText"
+            android:layout_gravity="center"
+            android:inputType="textMultiLine"
+            android:textSize="20dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textColor="@color/EditBlack"
+            android:focusable="true"
+            android:defaultFocusHighlightEnabled="true"
+            android:textAlignment="center"
+            android:layout_centerInParent="true"
+            android:layout_alignParentLeft="true"
+            ></TextView>
+
+
+    </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:id="@+id/childLayout"
+            android:layout_weight="8">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:elevation="30dp"
+                android:orientation="horizontal">
+             <TextView
+                android:layout_width="wrap_content"
+                 android:textAlignment="center"
+                 android:text="Image"
+                android:layout_height="wrap_content"
+                 android:layout_weight="1"
+                 android:padding="7dp"
+                 android:layout_marginLeft="1dp"
+                 android:layout_marginRight="1dp"
+                 android:onClick="backgroundOption"
+                android:background="@color/orange"></TextView>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:textAlignment="center"
+                    android:padding="7dp"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:text="Size"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:onClick="textSize"
+                    android:background="@color/orange"></TextView>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:textAlignment="center"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:text="Colour"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:padding="7dp"
+                    android:onClick="textColour"
+                    android:background="@color/orange"></TextView>
+                <TextView
+                    android:text="Position"
+                    android:textAlignment="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:padding="7dp"
+                    android:clickable="true"
+                    android:onClick="textPosition"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:background="@color/orange"></TextView>
+                <TextView
+                    android:text="font"
+                    android:textAlignment="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:padding="7dp"
+                    android:visibility="gone"
+                    android:clickable="true"
+                    android:onClick="textFont"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:background="@color/orange"></TextView>
+            </LinearLayout>
+
+
+            <!--<GridView
+                android:paddingTop="20dp"
+                android:id="@+id/gridView"
+                android:minHeight="6190dp"
+                android:numColumns="20"
+                android:horizontalSpacing="5dp"
+                android:stretchMode="columnWidth"
+                android:layout_width="match_parent"
+                android:layout_height= "wrap_content">
+            </GridView> -->
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    >
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/editRecyclerImageOption"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:orientation="horizontal"
+                android:scrollbars="horizontal"
+                android:focusable="true"
+                />
+           <RelativeLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:background="@color/black">
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/editRecycler"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:scrollbars="horizontal"
+                android:focusable="true"
+                android:layout_marginTop="35dp"
+                android:layout_marginBottom="35dp"
+                android:minHeight="6190dp"/>
+               <ProgressBar
+                   android:id= "@+id/editProgressBar"
+                   android:layout_width= "45dp"
+                   android:layout_height= "45dp"
+                   android:visibility="gone"
+                   android:layout_centerInParent= "true"
+                   android:background= "@drawable/circular_shape"
+                   android:indeterminate= "true"
+                   android:layout_gravity="center"
+                   android:indeterminateTintMode="src_atop"
+                   android:indeterminateTint="@color/orange"
+                   android:max= "100"
+                   android:progress= "65"
+                   android:progressDrawable= "@drawable/progress_bar" />
+           </RelativeLayout>
+                </LinearLayout>
+
+          <!--  <GridView
+                android:paddingTop="20dp"
+                android:id="@+id/gridViewText"
+                android:numColumns="3"
+                android:minHeight="6190dp"
+                android:stretchMode="columnWidth"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+            </GridView> -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="300dp"
+                android:height="800dp"/>
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>
